@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Listeners ITestListener suite" verbose="2">
+	<listeners>
+		<listener class-name="testNg.Part12_Listener_ITestListner"></listener>
+	</listeners>
+	<test name="Listeners ITestListener TestCase ">
+		<classes>
+			<class name="testNg.Part01FirstProgram"></class>
+		</classes>
+	</test>
+</suite>
