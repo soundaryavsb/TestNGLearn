@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" -->
+<suite name="Groups Exclude Suite" verbose="2">
+	<test name="Groups Exclude Test Case">
+		<groups>
+			<run>
+				<exclude name="Vivo"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="testNg.Part07_Grouping_groups_String"></class>
+		</classes>
+	</test>
+</suite>
