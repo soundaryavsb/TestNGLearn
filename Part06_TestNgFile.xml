@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" -->
+<suite name="Test Suite" verbose="2">
+<test name="Test Case">
+<classes>
+<class name="testNg.Part01FirstProgram"></class>
+<class name="testNg.Part02_PriorityAttribute_TestNGAnnotations"></class>
+<class name="testNg.Part03_SkipTestCase_EnableAttribute_false"></class>
+<class name="testNg.Part04_DependanciesManagement_dependsOnMethods"></class>
+<class name="testNg.Part05_SuiteExample_System_currentTimeMillies"></class>
+</classes>
+</test>
+</suite>
